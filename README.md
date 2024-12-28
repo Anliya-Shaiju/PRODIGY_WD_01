@@ -12,3 +12,8 @@ Download or clone the repository.
 Open the project folder.
 Run the index.html file in any modern web browser.
 Modify the styles.css or script.js if customization is needed.
+  
+![Screenshot 2024-12-28 183139](https://github.com/user-attachments/assets/89722204-419a-4e44-8a20-1ee969c1b56f)
+
+![Screenshot 2024-12-28 183150](https://github.com/user-attachments/assets/7492393b-0ead-41d7-8c8c-5f8777b36829)
+
