@@ -1,0 +1,156 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.3s;
+    z-index: 1000;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #333;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  #home {
+    height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #home .btn-primary {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #home .btn-primary:hover {
+    background: #555;
+  }
+  
+  /* About Section */
+  #about {
+    background: #ddd;
+  }
+  
+  #about img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Services Section */
+  #services {
+    background: #eee;
+  }
+  
+  .service-list {
+    list-style: none;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .service-list li {
+    background: #333;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background: #ddd;
+  }
+  
+  #contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #contact input, #contact textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact .btn-primary {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact .btn-primary:hover {
+    background: #555;
+  }
+  
+  /* Scrolled Navbar */
+  .scrolled {
+    background: rgba(51, 51, 51, 0.8);
+  }
+  
